@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.background{
+  background-image: url("./images/background.jpg")!important;
+  height: 100vh;
+  background-repeat : no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.login-box h1{
+  text :linear-gradient(to right, #3d433d, #9e780e);
+  font-size: 75px;
+ text-align: center;
+}
+
+
+.login-container {
+  background: linear-gradient(to right, #4CAF50, #033a41);
+  height: 100vh;
+  display: flex;
+  
+}
+
+.login-box {
+  background: white;
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+  width: 600px;
+}
+
+.login-box h2 {
+  padding-left: 25px;
+  font-size: bold;
+}
+.login-box p{
+  padding-left: 25px;
+}
+.login-box form{
+  padding-left: 25px;
+}
+.login-button {
+  
+  width: 100%;
+}
+
+/* for sign up page  */
+.signup-container {
+  background: linear-gradient(to right,#232f30, #929ae2 ); /* Change the background gradient */
+  height: 100vh;
+  display: flex;
+  justify-content: right; /* Center the content horizontally */
+  align-items: right; /* Center the content vertically */
+}
+
+.signup-box {
+  background: white;
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+  width: 600px;
+}
+
+.signup-box h2 {
+  padding-left: 25px;
+  font-size: bold;
+}
+
+.signup-box p {
+  padding-left: 25px;
+}
+
+.signup-box form {
+  padding-left: 25px;
+}
+
+.signup-button {
+  width: 100%;
+  margin-top: 15px; /* Add margin to separate the button from the form */
+}

@@ -1,0 +1,16 @@
+import React from 'react'
+import { Layout, Menu, Button } from 'antd';
+import {
+  HomeOutlined,
+  UserOutlined,
+  SettingOutlined,
+} from '@ant-design/icons';
+
+const { Header } = Layout;
+const PageHeader = () => {
+  return (
+    <div>PageHeader</div>
+  )
+}
+
+export default PageHeader
